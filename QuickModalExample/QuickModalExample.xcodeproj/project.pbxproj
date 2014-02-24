@@ -22,6 +22,9 @@
 		2EE8451A18BBC6C1009D8649 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EE8451818BBC6C1009D8649 /* InfoPlist.strings */; };
 		2EE8451C18BBC6C1009D8649 /* QuickModalExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8451B18BBC6C1009D8649 /* QuickModalExampleTests.m */; };
 		2EE8452818BBC730009D8649 /* UIViewController+QuickModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8452718BBC730009D8649 /* UIViewController+QuickModal.m */; };
+		2EE8452B18BBC895009D8649 /* YTQuickModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8452A18BBC895009D8649 /* YTQuickModal.m */; };
+		2EE8452F18BBFA38009D8649 /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8452D18BBFA38009D8649 /* AnotherViewController.m */; };
+		2EE8453018BBFA38009D8649 /* AnotherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE8452E18BBFA38009D8649 /* AnotherViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,11 @@
 		2EE8451B18BBC6C1009D8649 /* QuickModalExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickModalExampleTests.m; sourceTree = "<group>"; };
 		2EE8452618BBC730009D8649 /* UIViewController+QuickModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+QuickModal.h"; path = "../../UIViewController+QuickModal.h"; sourceTree = "<group>"; };
 		2EE8452718BBC730009D8649 /* UIViewController+QuickModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+QuickModal.m"; path = "../../UIViewController+QuickModal.m"; sourceTree = "<group>"; };
+		2EE8452918BBC895009D8649 /* YTQuickModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YTQuickModal.h; path = ../../YTQuickModal.h; sourceTree = "<group>"; };
+		2EE8452A18BBC895009D8649 /* YTQuickModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YTQuickModal.m; path = ../../YTQuickModal.m; sourceTree = "<group>"; };
+		2EE8452C18BBFA38009D8649 /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
+		2EE8452D18BBFA38009D8649 /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
+		2EE8452E18BBFA38009D8649 /* AnotherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnotherViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +129,9 @@
 				2EE8450218BBC6C1009D8649 /* Main.storyboard */,
 				2EE8450518BBC6C1009D8649 /* ViewController.h */,
 				2EE8450618BBC6C1009D8649 /* ViewController.m */,
+				2EE8452C18BBFA38009D8649 /* AnotherViewController.h */,
+				2EE8452D18BBFA38009D8649 /* AnotherViewController.m */,
+				2EE8452E18BBFA38009D8649 /* AnotherViewController.xib */,
 				2EE8450818BBC6C1009D8649 /* Images.xcassets */,
 				2EE844F718BBC6C1009D8649 /* Supporting Files */,
 			);
@@ -161,6 +172,8 @@
 			children = (
 				2EE8452618BBC730009D8649 /* UIViewController+QuickModal.h */,
 				2EE8452718BBC730009D8649 /* UIViewController+QuickModal.m */,
+				2EE8452918BBC895009D8649 /* YTQuickModal.h */,
+				2EE8452A18BBC895009D8649 /* YTQuickModal.m */,
 			);
 			name = "Quick Modal";
 			sourceTree = "<group>";
@@ -242,6 +255,7 @@
 			files = (
 				2EE8450918BBC6C1009D8649 /* Images.xcassets in Resources */,
 				2EE844FB18BBC6C1009D8649 /* InfoPlist.strings in Resources */,
+				2EE8453018BBFA38009D8649 /* AnotherViewController.xib in Resources */,
 				2EE8450418BBC6C1009D8649 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +278,8 @@
 				2EE8450718BBC6C1009D8649 /* ViewController.m in Sources */,
 				2EE8450118BBC6C1009D8649 /* AppDelegate.m in Sources */,
 				2EE8452818BBC730009D8649 /* UIViewController+QuickModal.m in Sources */,
+				2EE8452B18BBC895009D8649 /* YTQuickModal.m in Sources */,
+				2EE8452F18BBFA38009D8649 /* AnotherViewController.m in Sources */,
 				2EE844FD18BBC6C1009D8649 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +491,7 @@
 				2EE8452118BBC6C2009D8649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EE8452218BBC6C2009D8649 /* Build configuration list for PBXNativeTarget "QuickModalExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +500,7 @@
 				2EE8452418BBC6C2009D8649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
+#import "UIViewController+QuickModal.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<QuickModal>
 
 @end

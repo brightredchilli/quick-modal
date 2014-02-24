@@ -2,20 +2,14 @@
 
 @protocol QuickModal<NSObject>
 
+@optional
 - (BOOL)shouldDismissQuickModalViewController;
 
 @end
 
-typedef enum {
-    QuickModalTypeAppear,
-    QuickModalTypeSlideUp
-} QuickModalType;
-
 @interface UIViewController (QuickModal)
 
-- (void)presentQuickModal:(UIViewController *)controller
-            animationType:(QuickModalType)type;
-
-- (void)dismissQuickModal;
+- (void)cowboyQuickModal:(UIViewController *)controller;
+- (void)cowboyDismissQuickModal;
 
 @end
