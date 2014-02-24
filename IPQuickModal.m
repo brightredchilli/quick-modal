@@ -17,9 +17,18 @@
 + (void (^)(UIViewController *))defaultShowAnimationBlock {
     void (^showAnimationBlock) (UIViewController *) = ^(UIViewController *presentedViewController) {
         presentedViewController.view.alpha = 0;
+        presentedViewController.view.transform = CGAffineTransformMakeScale(0, 0);
         [UIView animateWithDuration:0.2
+                              delay:0
+             usingSpringWithDamping:0.7
+              initialSpringVelocity:0.5
+                            options:UIViewAnimationOptionCurveEaseIn
                          animations:^{
                              presentedViewController.view.alpha = 1;
+                             presentedViewController.view.transform = CGAffineTransformMakeScale(1, 1);
+                             
+                         } completion:^(BOOL finished) {
+                             
                          }];
     };
     return showAnimationBlock;
