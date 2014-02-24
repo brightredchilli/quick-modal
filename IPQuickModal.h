@@ -1,9 +1,9 @@
 #import <Foundation/Foundation.h>
-#import "UIViewController+QuickModal.h"
+#import "UIViewController+IPQuickModal.h"
 
-@interface YTQuickModal : NSObject
+@interface IPQuickModal : NSObject
 
-@property (nonatomic, weak) UIViewController <QuickModal>*presenter;
+@property (nonatomic, weak) UIViewController <IPQuickModalPresenter>*presenter;
 @property (nonatomic, strong) UIViewController *presented;
 
 @property (nonatomic, copy) void (^showAnimationBlock)(UIViewController *presentedViewController);

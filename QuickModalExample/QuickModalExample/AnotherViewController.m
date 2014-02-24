@@ -1,5 +1,5 @@
 #import "AnotherViewController.h"
-#import "UIViewController+QuickModal.h"
+#import "UIViewController+IPQuickModal.h"
 
 @interface AnotherViewController ()
 
@@ -13,7 +13,7 @@
 }
 
 - (IBAction)cancelButtonTapped:(id)sender {
-    [self cowboyDismissQuickModal];
+    [self dismissQuickModal];
 }
 
 @end

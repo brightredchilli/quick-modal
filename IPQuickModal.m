@@ -1,4 +1,4 @@
-#import "YTQuickModal.h"
+#import "IPQuickModal.h"
 
 @interface YTDismissButton : UIButton
 @end
@@ -6,13 +6,13 @@
 @implementation YTDismissButton
 @end
 
-@interface YTQuickModal ()
+@interface IPQuickModal ()
 
 @property (nonatomic, strong) UIButton *backgroundViewDismissButton;
 
 @end
 
-@implementation YTQuickModal
+@implementation IPQuickModal
 
 + (void (^)(UIViewController *))defaultShowAnimationBlock {
     void (^showAnimationBlock) (UIViewController *) = ^(UIViewController *presentedViewController) {
@@ -39,8 +39,8 @@
 - (id)init {
     self = [super init];
     if (self) {
-        self.showAnimationBlock = [YTQuickModal defaultShowAnimationBlock];
-        self.hideAnimationBlock = [YTQuickModal defaultHideAnimationBlock];
+        self.showAnimationBlock = [IPQuickModal defaultShowAnimationBlock];
+        self.hideAnimationBlock = [IPQuickModal defaultHideAnimationBlock];
     }
     return self;
 }
@@ -85,7 +85,7 @@
 }
 
 - (void)dismissButtonClicked:(id)sender {
-    [self.presented cowboyDismissQuickModal];
+    [self.presented dismissQuickModal];
 }
 
 @end
