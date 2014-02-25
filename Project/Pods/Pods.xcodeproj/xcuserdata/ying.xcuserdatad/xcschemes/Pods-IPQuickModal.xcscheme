@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5E0CBD4793A0482FACA4535C"
+               BlueprintIdentifier = "275A0E8ED4344F01A56428D7"
                BuildableName = "libPods-IPQuickModal.a"
                BlueprintName = "Pods-IPQuickModal"
                ReferencedContainer = "container:Pods.xcodeproj">

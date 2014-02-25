@@ -11,16 +11,13 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
   Quick way to display a modal
                        DESC
-  s.homepage         = "http://EXAMPLE/NAME"
-  s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ying Quan Tan" => "ying.quan.tan@gmail.com" }
-  s.source           = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
+  s.source           = { :git => "git@github.com:brightredchilli/quick-modal.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/brightredchilli'
 
   s.platform     = :ios, '7.0'
-  # s.ios.deployment_target = '5.0'
-  # s.osx.deployment_target = '10.7'
+  s.ios.deployment_target = '7.0'
   s.requires_arc = true
 
   s.source_files = 'Classes'

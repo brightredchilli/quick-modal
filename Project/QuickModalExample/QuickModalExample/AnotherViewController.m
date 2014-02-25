@@ -1,5 +1,5 @@
 #import "AnotherViewController.h"
-#import "UIViewController+IPQuickModal.h"
+#import <UIViewController+IPQuickModal.h>
 
 @interface AnotherViewController ()
 

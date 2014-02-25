@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../IPQuickModal.podspec
 
 SPEC CHECKSUMS:
-  IPQuickModal: 893dc14d791cea72b8a30f761f8808998ebb305c
+  IPQuickModal: 7f05392a1f3a1d44f5ae78cddc1a885186012a17
 
 COCOAPODS: 0.29.0

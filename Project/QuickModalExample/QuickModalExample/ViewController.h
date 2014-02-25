@@ -1,5 +1,5 @@
 #import <UIKit/UIKit.h>
-#import "UIViewController+IPQuickModal.h"
+#import <UIViewController+IPQuickModal.h>
 
 @interface ViewController : UIViewController<IPQuickModalPresenter>
 
