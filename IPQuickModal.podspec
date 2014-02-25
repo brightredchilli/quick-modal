@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "IPQuickModal"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A UIViewController category that makes showing modal view controllers easy."
   s.homepage         = "http://www.intrepid.io"
   s.description      = <<-DESC
