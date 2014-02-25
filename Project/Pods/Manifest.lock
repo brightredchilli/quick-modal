@@ -1,0 +1,14 @@
+PODS:
+  - IPQuickModal (0.1.0)
+
+DEPENDENCIES:
+  - IPQuickModal (from `../IPQuickModal.podspec`)
+
+EXTERNAL SOURCES:
+  IPQuickModal:
+    :path: ../IPQuickModal.podspec
+
+SPEC CHECKSUMS:
+  IPQuickModal: 893dc14d791cea72b8a30f761f8808998ebb305c
+
+COCOAPODS: 0.29.0

@@ -1,0 +1,4 @@
+pod "IPQuickModal", :path => "../IPQuickModal.podspec"
+
+xcodeproj 'QuickModalExample/QuickModalExample.xcodeproj'
+

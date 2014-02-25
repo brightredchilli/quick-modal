@@ -21,10 +21,9 @@
 		2EE8451218BBC6C1009D8649 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE844F418BBC6C1009D8649 /* UIKit.framework */; };
 		2EE8451A18BBC6C1009D8649 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EE8451818BBC6C1009D8649 /* InfoPlist.strings */; };
 		2EE8451C18BBC6C1009D8649 /* QuickModalExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8451B18BBC6C1009D8649 /* QuickModalExampleTests.m */; };
-		2EE8452818BBC730009D8649 /* UIViewController+IPQuickModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8452718BBC730009D8649 /* UIViewController+IPQuickModal.m */; };
-		2EE8452B18BBC895009D8649 /* IPQuickModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8452A18BBC895009D8649 /* IPQuickModal.m */; };
 		2EE8452F18BBFA38009D8649 /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE8452D18BBFA38009D8649 /* AnotherViewController.m */; };
 		2EE8453018BBFA38009D8649 /* AnotherViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EE8452E18BBFA38009D8649 /* AnotherViewController.xib */; };
+		810B8AE25E6F4D1185BCC2BB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C64145A70C144EBAB7A4824 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +56,11 @@
 		2EE8451718BBC6C1009D8649 /* QuickModalExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuickModalExampleTests-Info.plist"; sourceTree = "<group>"; };
 		2EE8451918BBC6C1009D8649 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2EE8451B18BBC6C1009D8649 /* QuickModalExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickModalExampleTests.m; sourceTree = "<group>"; };
-		2EE8452618BBC730009D8649 /* UIViewController+IPQuickModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+IPQuickModal.h"; path = "../../UIViewController+IPQuickModal.h"; sourceTree = "<group>"; };
-		2EE8452718BBC730009D8649 /* UIViewController+IPQuickModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+IPQuickModal.m"; path = "../../UIViewController+IPQuickModal.m"; sourceTree = "<group>"; };
-		2EE8452918BBC895009D8649 /* IPQuickModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IPQuickModal.h; path = ../../IPQuickModal.h; sourceTree = "<group>"; };
-		2EE8452A18BBC895009D8649 /* IPQuickModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IPQuickModal.m; path = ../../IPQuickModal.m; sourceTree = "<group>"; };
 		2EE8452C18BBFA38009D8649 /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
 		2EE8452D18BBFA38009D8649 /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
 		2EE8452E18BBFA38009D8649 /* AnotherViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnotherViewController.xib; sourceTree = "<group>"; };
+		3C64145A70C144EBAB7A4824 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9655FFC374C4378B0FA2542 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +71,7 @@
 				2EE844F318BBC6C1009D8649 /* CoreGraphics.framework in Frameworks */,
 				2EE844F518BBC6C1009D8649 /* UIKit.framework in Frameworks */,
 				2EE844F118BBC6C1009D8649 /* Foundation.framework in Frameworks */,
+				810B8AE25E6F4D1185BCC2BB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +95,7 @@
 				2EE8451518BBC6C1009D8649 /* QuickModalExampleTests */,
 				2EE844EF18BBC6C1009D8649 /* Frameworks */,
 				2EE844EE18BBC6C1009D8649 /* Products */,
+				E9655FFC374C4378B0FA2542 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +115,7 @@
 				2EE844F218BBC6C1009D8649 /* CoreGraphics.framework */,
 				2EE844F418BBC6C1009D8649 /* UIKit.framework */,
 				2EE8450F18BBC6C1009D8649 /* XCTest.framework */,
+				3C64145A70C144EBAB7A4824 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,7 +123,6 @@
 		2EE844F618BBC6C1009D8649 /* QuickModalExample */ = {
 			isa = PBXGroup;
 			children = (
-				2EE8452518BBC722009D8649 /* Quick Modal */,
 				2EE844FF18BBC6C1009D8649 /* AppDelegate.h */,
 				2EE8450018BBC6C1009D8649 /* AppDelegate.m */,
 				2EE8450218BBC6C1009D8649 /* Main.storyboard */,
@@ -167,17 +166,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2EE8452518BBC722009D8649 /* Quick Modal */ = {
-			isa = PBXGroup;
-			children = (
-				2EE8452618BBC730009D8649 /* UIViewController+IPQuickModal.h */,
-				2EE8452718BBC730009D8649 /* UIViewController+IPQuickModal.m */,
-				2EE8452918BBC895009D8649 /* IPQuickModal.h */,
-				2EE8452A18BBC895009D8649 /* IPQuickModal.m */,
-			);
-			name = "Quick Modal";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -185,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EE8451F18BBC6C2009D8649 /* Build configuration list for PBXNativeTarget "QuickModalExample" */;
 			buildPhases = (
+				86BBB6F60EAC47EE8A1E8672 /* Check Pods Manifest.lock */,
 				2EE844E918BBC6C1009D8649 /* Sources */,
 				2EE844EA18BBC6C1009D8649 /* Frameworks */,
 				2EE844EB18BBC6C1009D8649 /* Resources */,
+				5B029197C4984A0FAD923271 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +260,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B029197C4984A0FAD923271 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86BBB6F60EAC47EE8A1E8672 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2EE844E918BBC6C1009D8649 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -277,8 +300,6 @@
 			files = (
 				2EE8450718BBC6C1009D8649 /* ViewController.m in Sources */,
 				2EE8450118BBC6C1009D8649 /* AppDelegate.m in Sources */,
-				2EE8452818BBC730009D8649 /* UIViewController+IPQuickModal.m in Sources */,
-				2EE8452B18BBC895009D8649 /* IPQuickModal.m in Sources */,
 				2EE8452F18BBFA38009D8649 /* AnotherViewController.m in Sources */,
 				2EE844FD18BBC6C1009D8649 /* main.m in Sources */,
 			);
@@ -406,6 +427,7 @@
 		};
 		2EE8452018BBC6C2009D8649 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9655FFC374C4378B0FA2542 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -419,6 +441,7 @@
 		};
 		2EE8452118BBC6C2009D8649 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9655FFC374C4378B0FA2542 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
